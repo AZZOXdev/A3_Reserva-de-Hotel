@@ -1,0 +1,19 @@
+{
+  "name": "a3_reserva-de-hotel",
+  "version": "1.0.0",
+  "description": "Projeto de Reserva de Hotéis\r Este é um projeto de sistema de reserva de hotéis desenvolvido em Node.js e MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AZZOXdev/A3_Reserva-de-Hotel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AZZOXdev/A3_Reserva-de-Hotel/issues"
+  },
+  "homepage": "https://github.com/AZZOXdev/A3_Reserva-de-Hotel#readme"
+}
