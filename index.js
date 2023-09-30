@@ -5,6 +5,12 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
 
+// Conectar ao banco de dados MongoDB
+mongoose.connect('mongodb+srv://Tiago:<dMu534tjRaFfUgzn>@cluster0.i1f48f9.mongodb.net/?retryWrites=true&w=majority', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
+
 // forma de ler JSON //
 app.use(
   express.urlencoded({
@@ -14,13 +20,6 @@ app.use(
 
 app.use(express.json())
 
-// Rota inicial //
-
-app.get('/', (req, res) => {
-
-  res.json({ message: 'Ola express!'})
-
-})
 
 // Definir um modelo de reserva //
 const Reserva = mongoose.model('Reserva', {
