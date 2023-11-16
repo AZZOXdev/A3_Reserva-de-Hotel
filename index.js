@@ -5,11 +5,6 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
 
-// Conectar ao banco de dados MongoDB
-mongoose.connect('mongodb+srv://Tiago:<dMu534tjRaFfUgzn>@cluster0.i1f48f9.mongodb.net/?retryWrites=true&w=majority', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
 
 // forma de ler JSON //
 app.use(
